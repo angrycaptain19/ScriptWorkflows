@@ -9,11 +9,8 @@ with open(filepath,'r') as f:
 # print(len(data))
 
 
-d = dict()
+d = {'A': data[:100], 'B': data[100:200], 'C': data[200:-1]}
 
-d['A'] = data[:100]
-d['B'] = data[100:200]
-d['C'] = data[200:-1]
 # d['D'] = data[100:150]
 # d['E'] = data[150:200]
 # d['F'] = data[200:-1]
